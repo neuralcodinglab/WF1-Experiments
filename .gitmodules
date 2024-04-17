@@ -1,0 +1,3 @@
+[submodule "Analysis/xsensTools"]
+	path = Analysis/xsensTools
+	url = https://github.com/deruyter92/xsensTools.git

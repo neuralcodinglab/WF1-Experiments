@@ -154,7 +154,7 @@ def cvimg2tensor(img, device='cuda:0',mean=[0.485, 0.456, 0.406], std=[0.229, 0.
     x = img[:,:,[2,1,0]].swapaxes(0,2)/255
     x = torch.tensor(x,dtype=torch.float)
     x = F.normalize(x, mean, std)
-    x = x.unsqueeze(0).to('cuda:0')
+    x = x.unsqueeze(0).to(device)
     return x
 
 

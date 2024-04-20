@@ -1,12 +1,8 @@
 import numpy as np
 import cv2
-import torch
 import improc
 import time
 import pyduino
-import win32api
-import csv
-from csv import reader
 import pandas as pd
 import os
 import winsound
